@@ -147,15 +147,24 @@ footer {
         flex-direction: column;
     }
 
-    .conteudo {
-        font-size: 2rem;
+    .conteudo  {
         text-align: center;
         margin: 0;
         margin-top: 60px;
     }
 
+    .conteudo p {
+        line-height: 2.5rem;
+        font-size: 21px;
+        margin-bottom: 20px;
+    }
+
     .conteudo h1 {
         font-size: 2rem;
+    }
+
+    .conteudo button {
+        width: 300px;
     }
 
     .redes ul {
