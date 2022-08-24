@@ -1,0 +1,70 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+:root {
+    ---violet: hsl(257, 40%, 49%);
+    ---softmagenta: hsl(300, 69%, 71%);
+    ---fontPoppins: 'Poppins', sans-serif;
+    ---fontOpenSans: 'Open Sans', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: var(---violet);
+    background-image: url('../images/bg-desktop.svg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100vw;
+}
+
+header {
+    margin: auto;
+    width: 80vw;
+    padding: 50px 0px 50px 0px;
+}
+
+main {
+    margin: auto;
+    width: 80vw;
+    display: flex;
+    justify-content: center;
+}
+
+.illustration {
+    margin-top: 40px;
+}
+
+.conteudo {
+    margin-top: 60px;
+    margin-left: 30px;
+    color: white;
+}
+
+.conteudo h1 {
+    margin-top: 20px;
+    font-family: var(---fontOpenSans);
+    font-weight: 600;
+    font-size: 40px;
+}
+
+.conteudo p {
+    margin-top: 20px;
+    font-family: var(---fontPoppins);
+    font-size: 12px;
+}
+
+.conteudo button {
+    margin-top: 20px;
+    padding: 10px 50px;
+    border-radius: 30px;
+}
